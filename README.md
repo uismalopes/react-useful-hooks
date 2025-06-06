@@ -26,7 +26,7 @@ Um hook poderoso e flexível para adicionar/remover event listeners em elementos
 
 ```tsx
 import { useRef } from 'react';
-import useEventListener from 'react-useful-hooks/useEventListener';
+import { useEventListener } from 'react-useful-hooks';
 
 function Example() {
   const buttonRef = useRef<HTMLButtonElement>(null);
